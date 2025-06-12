@@ -55,8 +55,8 @@ params:
     profileMode:
           enabled: true
           title: Sebastian Cifuentes
-          subtitle: "I am Finance PhD Candidate at UCSD, Rady School of Management. My research interests..."
-          imageUrl: "DSC05134_square.jpg"
+          subtitle: "I am Finance PhD Candidate at UCSD, Rady School of Management. My research interests lies on the intersection..."
+          imageUrl: "DSC05134.jpg"
           imageWidth: 200
           imageHeight: 200
           buttons:
