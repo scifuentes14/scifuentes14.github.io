@@ -55,8 +55,8 @@ params:
     profileMode:
           enabled: true
           title: Sebastian Cifuentes
-          subtitle: "I am Finance PhD Candidate at UCSD, Rady School of Management. My research interests lies on the intersection..."
-          imageUrl: "DSC05134.jpg"
+          subtitle: "I am Finance PhD Candidate at UCSD, Rady School of Management. My research interests lies on the intersection of Finance and ..."
+          imageUrl: "WebPage_Photo.png"
           imageWidth: 200
           imageHeight: 200
           buttons:
@@ -88,16 +88,8 @@ params:
           url: officehours/
         - name: Google Scholar
           url: https://scholar.google.com/citations?user=cL23w-4AAAAJ
-        - name: GitHub
-          url: https://github.com/pmichaillat
-        - name: Substack
-          url: https://pmichaillat.substack.com
-        - name: YouTube
-          url: https://www.youtube.com/@pmichaillat
         - name: Twitter
           url: https://x.com/scifuentes14
-        - name: Bluesky
-          url: https://bsky.app/profile/pmichaillat.bsky.social
 
     assets:
         disableScrollBarStyle: true
