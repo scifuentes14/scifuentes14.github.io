@@ -55,7 +55,7 @@ params:
     profileMode:
           enabled: true
           title: Sebastian Cifuentes
-          subtitle: "I am Finance PhD Candidate at UCSD, Rady School of Management. My research interests lies on the intersection of Finance and Real Estate....."
+          subtitle: "I am a Finance Ph.D. candidate at the Rady School of Management, University of California, San Diego. My research interests focus on entrepreneurship, housing markets, and economic inequality. Prior to joining the Ph.D. program, I obtained an M.Sc. in Finance (with highest honors) and an Industrial Engineering degree with a major in Mining Engineering (with highest honors) from the Pontificia Universidad Católica de Chile."
           imageUrl: "WebPage_Photo.png"
           imageWidth: 160
           imageHeight: 160
@@ -98,8 +98,8 @@ params:
         hiddenInSingle: true
     label:
       text: "Sebastian Cifuentes"
-      icon: favicon.ico
-      iconHeight: 18
+      icon: UCSD_Seal.png
+      iconHeight: 20
 
 markup:
     goldmark:
