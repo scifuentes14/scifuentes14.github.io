@@ -58,7 +58,7 @@ params:
           subtitle: "I am Finance PhD Candidate at UCSD, Rady School of Management."
           imageUrl: "DSC05134.jpg"
           imageWidth: 160
-          imageHeight: 160
+          imageHeight: 120
           buttons:
             - name: Papers
               url: papers/
