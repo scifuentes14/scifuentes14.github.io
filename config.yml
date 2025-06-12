@@ -98,7 +98,7 @@ params:
         hiddenInSingle: true
     label:
       text: "Sebastian Cifuentes"
-      icon: favicon.ico
+      icon: "favicon-32x32.png"
       iconHeight: 20
 
 markup:
