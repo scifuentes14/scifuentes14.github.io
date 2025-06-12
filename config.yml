@@ -56,7 +56,7 @@ params:
           enabled: true
           title: Sebastian Cifuentes
           subtitle: "I am Finance PhD Candidate at UCSD, Rady School of Management."
-          imageUrl: "picture.jpeg"
+          imageUrl: "DSC05134.jpg"
           imageWidth: 160
           imageHeight: 160
           buttons:
@@ -79,7 +79,7 @@ params:
         - name: CV
           url: NewCV_SC.pdf
         - name: Email
-          url: mailto:igelfeld@regensburg.edu
+          url: mailto:scifuentes@ucsd.edu
         - name: Zoom
           url: https://www.zoom.us/my/igelfeld
         - name: Location
@@ -105,7 +105,7 @@ params:
         hiddenInList: false
         hiddenInSingle: true
     label:
-      text: "Moritz-Maria von Igelfeld"
+      text: "Sebastian Cifuentes"
       icon: favicon.ico
       iconHeight: 18
 
