@@ -98,7 +98,7 @@ params:
         hiddenInSingle: true
     label:
       text: "Sebastian Cifuentes"
-      icon: UCSD_Seal.png
+      icon: favicon.ico
       iconHeight: 20
 
 markup:
