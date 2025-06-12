@@ -77,7 +77,7 @@ params:
 
     socialIcons:
         - name: CV
-          url: cv.pdf
+          url: NewCV_SC.pdf
         - name: Email
           url: mailto:igelfeld@regensburg.edu
         - name: Zoom
@@ -95,7 +95,7 @@ params:
         - name: YouTube
           url: https://www.youtube.com/@pmichaillat
         - name: Twitter
-          url: https://x.com/pmichaillat
+          url: https://x.com/scifuentes14
         - name: Bluesky
           url: https://bsky.app/profile/pmichaillat.bsky.social
 
