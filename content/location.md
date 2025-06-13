@@ -6,16 +6,6 @@ description: "Sebastian Cifuentes' mailing and office addresses at the Rady Scho
 
 ---
 
----
-
-#### Mailing address
-
-Finance PhD Candidate 
-Rady School of Management
-University California, San Diego 
-
----
-
 #### Office address
 
 Third Floor Wells Fargo Hall
