@@ -25,8 +25,7 @@ Third Floor Wells Fargo Hall
 ---
 
 #### Office location
-
-<iframe src="https://www.google.com/maps/place/Rady+School+of+Management/data=!4m2!3m1!1s0x0:0x98cec3776211db57?sa=X&ved=1t:2428&ictx=111" 
+<iframe src="[https://www.google.com/maps/place/Rady+School+of+Management/data=!4m2!3m1!1s0x0:0x98cec3776211db57?sa=X&ved=1t:2428&ictx=111](https://www.google.com/maps/place/Rady+School+of+Management/@32.8869643,-117.2417855,17z/data=!3m1!4b1!4m6!3m5!1s0x80dc06eaffcc2d29:0x98cec3776211db57!8m2!3d32.8869643!4d-117.2417855!16zL20vMGI5d2hf?entry=ttu&g_ep=EgoyMDI1MDYxMC4xIKXMDSoASAFQAw%3D%3D)" 
 width="700" height="500" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 
 
