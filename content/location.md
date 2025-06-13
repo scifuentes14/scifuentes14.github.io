@@ -13,7 +13,6 @@ description: "Sebastian Cifuentes' mailing and office addresses at the Rady Scho
 Finance PhD Candidate 
 Rady School of Management
 University California, San Diego 
-San Diego, CA-USA
 
 ---
 
