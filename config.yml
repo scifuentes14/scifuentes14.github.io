@@ -1,4 +1,4 @@
-baseURL: "https://scifuentes.org/academic-website/" 
+baseURL: "https://scifuentes.net" 
 title: Sebastian Cifuentes
 theme: PaperMod
 
@@ -98,7 +98,7 @@ params:
         hiddenInSingle: true
     label:
       text: "Sebastian Cifuentes"
-      icon: "favicon-32x32.png"
+      icon: favicon-32x32.png
       iconHeight: 20
 
 markup:
