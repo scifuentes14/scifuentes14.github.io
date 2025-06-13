@@ -13,11 +13,14 @@ taxonomies:
 menu:
     main:
         - name: Research
+          url: research/
+          weight: 4
+        - name: Papers
           url: papers/
-          weight: 2
+          weight: 3
         - name: Courses
           url: courses/
-          weight: 3
+          weight: 4
 
 params:
     description: "This website hosts Sebastian Cifuentes' research papers, books, course materials, data, curriculum vitae, and contact information."
@@ -35,7 +38,7 @@ params:
     ShowBreadCrumbs: false
     ShowCodeCopyButtons: true
     ShowAllPagesInArchive: false
-    MainSections: ["courses","papers"]
+    MainSections: ["research","courses","papers"]
     ShowToc: false
     disableScrollToTop: true
     TocOpen: true
@@ -52,6 +55,8 @@ params:
           imageHeight: 160
           buttons:
             - name: Research
+              url: research/
+            - name: Papers
               url: papers/
             - name: Courses
               url: courses/
