@@ -12,21 +12,12 @@ taxonomies:
 
 menu:
     main:
-        - name: Books
-          url: books/
-          weight: 5 
-        - name: Papers
+        - name: Research
           url: papers/
           weight: 2
         - name: Courses
           url: courses/
           weight: 3
-        - name: Data
-          url: data/
-          weight: 4 
-        - name: Blog
-          url: https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_(character)
-          weight: 6
 
 params:
     description: "This website hosts Sebastian Cifuentes' research papers, books, course materials, data, curriculum vitae, and contact information."
@@ -44,7 +35,7 @@ params:
     ShowBreadCrumbs: false
     ShowCodeCopyButtons: true
     ShowAllPagesInArchive: false
-    MainSections: ["books","courses","papers","data"]
+    MainSections: ["courses","papers"]
     ShowToc: false
     disableScrollToTop: true
     TocOpen: true
@@ -55,39 +46,22 @@ params:
     profileMode:
           enabled: true
           title: Sebastian Cifuentes
-          subtitle: "I am a Finance Ph.D. candidate at the Rady School of Management, University of California, San Diego. My research interests focus on entrepreneurship, housing markets, and economic inequality."
+          subtitle: "I am a Finance Ph.D. candidate at the Rady School of Management, University of California, San Diego. My research interests focus on entrepreneurship, housing markets, and economic inequality. I obtained an M.Sc. in Finance and an Industrial Engineering degree with a major in Mining Engineering from the Pontificia Universidad Católica de Chile."
           imageUrl: "WebPage_Photo.png"
           imageWidth: 160
           imageHeight: 160
           buttons:
-            - name: Papers
+            - name: Research
               url: papers/
-            - name: Data
-              url: data/
-            - name: Books
-              url: books/
             - name: Courses
               url: courses/
-            - name: Tags
-              url: tags/
-            - name: Archive
-              url: archive/
-            - name: Blog
-              url: https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_(character)
-
     socialIcons:
         - name: CV
           url: NewCV_SC.pdf
         - name: Email
           url: mailto:scifuentes@ucsd.edu
-        - name: Zoom
-          url: https://www.zoom.us/my/igelfeld
         - name: Location
           url: location/
-        - name: Office Hours
-          url: officehours/
-        - name: Google Scholar
-          url: https://scholar.google.com/citations?user=cL23w-4AAAAJ
         - name: Twitter
           url: https://x.com/scifuentes14
 
