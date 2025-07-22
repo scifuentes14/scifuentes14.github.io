@@ -15,9 +15,6 @@ menu:
         - name: Research
           url: research/
           weight: 4
-        - name: Courses
-          url: courses/
-          weight: 4
 
 params:
     description: "This website hosts Sebastian Cifuentes' research papers, books, course materials, data, curriculum vitae, and contact information."
@@ -35,7 +32,7 @@ params:
     ShowBreadCrumbs: false
     ShowCodeCopyButtons: true
     ShowAllPagesInArchive: false
-    MainSections: ["research","courses"]
+    MainSections: ["research"]
     ShowToc: false
     disableScrollToTop: true
     TocOpen: true
@@ -53,8 +50,6 @@ params:
           buttons:
             - name: Research
               url: research/
-            - name: Courses
-              url: courses/
     socialIcons:
         - name: CV
           url: NewCV_SC.pdf
