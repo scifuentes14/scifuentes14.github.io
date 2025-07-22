@@ -15,9 +15,6 @@ menu:
         - name: Research
           url: research/
           weight: 4
-        - name: Papers
-          url: papers/
-          weight: 3
         - name: Courses
           url: courses/
           weight: 4
@@ -38,7 +35,7 @@ params:
     ShowBreadCrumbs: false
     ShowCodeCopyButtons: true
     ShowAllPagesInArchive: false
-    MainSections: ["research","courses","papers"]
+    MainSections: ["research","courses"]
     ShowToc: false
     disableScrollToTop: true
     TocOpen: true
@@ -56,13 +53,11 @@ params:
           buttons:
             - name: Research
               url: research/
-            - name: Papers
-              url: papers/
             - name: Courses
               url: courses/
     socialIcons:
         - name: CV
-          url: NewCV_SC.pdf
+          url: CV_SC.pdf
         - name: Email
           url: mailto:scifuentes@ucsd.edu
         - name: Location
