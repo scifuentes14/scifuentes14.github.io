@@ -25,7 +25,7 @@ params:
     # googleAnalyticsID: "G-XXXXX"
     DateFormat: "January 2006"
     defaultTheme: light
-    hideFooter: false
+    hideFooter: true
     disableThemeToggle: true
     ShowShareButtons: false
     ShowReadingTime: false
@@ -57,7 +57,7 @@ params:
               url: courses/
     socialIcons:
         - name: CV
-          url: CV_SC.pdf
+          url: NewCV_SC.pdf
         - name: Email
           url: mailto:scifuentes@ucsd.edu
         - name: Location
