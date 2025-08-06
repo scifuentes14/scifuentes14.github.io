@@ -17,7 +17,7 @@ layout: simple
     }
   }
 </script>
-
+You can find more about my projects in my [CV](https://scifuentes14.github.io/NewCV_SC.pdf)
 --- 
 ## Working in Progress
 
