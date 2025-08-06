@@ -43,7 +43,7 @@ params:
     profileMode:
           enabled: true
           title: Sebastian Cifuentes
-          subtitle: "I am a Finance Ph.D. candidate at the Rady School of Management, University of California, San Diego. My research interests focus on entrepreneurship, housing markets, and economic inequality. I obtained an M.Sc. in Finance and an Industrial Engineering degree with a major in Mining Engineering from the Pontificia Universidad Católica de Chile."
+          subtitle: "I am a Finance Ph.D. Candidate at the Rady School of Management, University of California, San Diego. My research interests focus on entrepreneurship, housing markets, and economic inequality. I obtained an M.Sc. in Finance and an Industrial Engineering degree with a major in Mining Engineering from the Pontificia Universidad Católica de Chile."
           imageUrl: "WebPage_Photo.png"
           imageWidth: 160
           imageHeight: 160
