@@ -23,7 +23,15 @@ layout: simple
 ## Working in Progress
 
 - <b>Entrepreneurs and Nearest Neighbors.</b>
-
+<div style="
+  display: flex;
+  gap: 0.5em;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin-top: -20px;
+  margin-left: 2.5em;"
+  >
 <button onclick="toggle_visibility('abstract')" style="
     all: unset;
     color: black;
@@ -34,7 +42,6 @@ layout: simple
     cursor: pointer;">
     [Abstract]
   </button>
-  <span>·</span>
   
 </div>
 
@@ -51,6 +58,16 @@ This paper examines whether direct exposure to entrepreneurial neighbors increas
 
 - [<b>Expected prices, Futures Prices and Time-varying Risk Premiums: The Case of Copper</b>](https://www.sciencedirect.com/science/article/pii/S0301420720308576)
 (with [Gonzalo Cortazar](https://www.ing.uc.cl/academicos-e-investigadores/gonzalo-cortazar-sanz/), Hector Ortega and [Eduardo S. Schwartz](https://beedie.sfu.ca/tracs_v3/beedie_website_iframes/beedie_website_iframes/profile_page/EduardoSchwartz)). *Resources Policy*, Vol. 69(7), pp. 101825, December 2020.
+
+<div style="
+  display: flex;
+  gap: 0.5em;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin-top: -20px;
+  margin-left: 2.5em;"
+  >
 
 <button onclick="toggle_visibility('abstract1')" style="
     all: unset;
