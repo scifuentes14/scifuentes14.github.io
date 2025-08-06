@@ -55,6 +55,8 @@ params:
           url: NewCV_SC.pdf
         - name: Email
           url: mailto:scifuentes@ucsd.edu
+        - name: LinkedIn
+          url: https://www.linkedin.com/in/sebasti%C3%A1n-cifuentes/
         - name: Location
           url: location/
         - name: Twitter
