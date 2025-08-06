@@ -24,7 +24,7 @@ layout: simple
 
 - <b>Entrepreneurs and Nearest Neighbors.</b>
 
-  <button onclick="toggle_visibility('abstract')" style="
+<button onclick="toggle_visibility('abstract')" style="
     all: unset;
     color: black;
     text-decoration: underline;
