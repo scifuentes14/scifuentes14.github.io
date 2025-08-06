@@ -45,6 +45,7 @@ This paper examines whether direct exposure to entrepreneurial neighbors increas
 
 ---
 ## Pre Doctoral Publications
+
 ### [Expected prices, Futures Prices and Time-varying Risk Premiums: The Case of Copper](https://www.sciencedirect.com/science/article/pii/S0301420720308576) 
 (with [Gonzalo Cortazar](https://www.ing.uc.cl/academicos-e-investigadores/gonzalo-cortazar-sanz/), Hector Ortega and [Eduardo S. Schwartz](https://beedie.sfu.ca/tracs_v3/beedie_website_iframes/beedie_website_iframes/profile_page/EduardoSchwartz)). *Resources Policy*, Vol. 69(7), pp. 101825, December 2020.
 
