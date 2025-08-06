@@ -8,7 +8,24 @@ description: "Sebastian Cifuentes' Research section."
 --- 
 ## Working in Progress
 
-### Entrepreneurs and Nearest Neighbors.
+**Entrepreneurs and Nearest Neighbors**
+  -->
+  <button onclick="toggle_visibility('abstract')" style="
+    all: unset;
+    color: black;
+    text-decoration: underline;
+    text-decoration-color: #6a7ba2;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 4px;
+    cursor: pointer;">
+    [Show/Hide Abstract]
+  </button>
+  <span>·</span>
+
+ <!-- Abstract block -->
+<div id="abstract" style="display:none; margin-top:10px; border:0px solid #ccc; padding:10px;">
+  I study the long-run effects of displacement and neighborhood division by examining individuals affected by the construction of the Interstate Highway System. To do so, I track individuals over time by linking the 1940 census to administrative mortality records from 1995 to 2005. I find that displaced individuals die three months younger, are more likely to leave their neighborhoods, and reside in areas with lower socioeconomic characteristics at the time of death. I also find highly localized spillovers: individuals living within 100 meters of a highway are more likely to leave their neighborhoods and relocate to lower socioeconomic areas, yet they do not experience increased mortality. The neighborhoods where individuals relocate after displacement explain 30% of the displacement-mortality effect. Accounting for the mortality effects of displacement would have increased the cost of building the highway system by 10%. Together, these results enhance our understanding of the costs displacement imposes on individuals and their communities and provide new insights for the design of future infrastructure projects.
+</div>
 
 #### Abstract: 
 This paper examines whether direct exposure to entrepreneurial neighbors increases business formation among incumbent residents. I exploit a natural experiment created by residential moves in North Carolina, combining 
@@ -22,7 +39,7 @@ into pathways for social mobility and localized economic development.
 
 ## Pre Doctoral Publications
 
-### [Expected prices, Futures Prices and Time-varying Risk Premiums: The Case of Copper](https://www.sciencedirect.com/science/article/pii/S0301420720308576) 
+ **[Expected prices, Futures Prices and Time-varying Risk Premiums: The Case of Copper]**(https://www.sciencedirect.com/science/article/pii/S0301420720308576) 
 (with [Gonzalo Cortazar](https://www.ing.uc.cl/academicos-e-investigadores/gonzalo-cortazar-sanz/), Hector Ortega and [Eduardo S. Schwartz](https://beedie.sfu.ca/tracs_v3/beedie_website_iframes/beedie_website_iframes/profile_page/EduardoSchwartz)). *Resources Policy*, Vol. 69(7), pp. 101825, December 2020.
 
 #### Abstract: 
