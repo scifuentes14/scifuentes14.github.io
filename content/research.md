@@ -40,7 +40,8 @@ layout: simple
 <div id="abstract" style="display:none; margin-top:10px; border:0px solid #ccc; padding:10px;">
 
   #### Abstract:
-  This paper examines whether direct exposure to entrepreneurial neighbors increases business formation among incumbent residents. I exploit a natural experiment created by residential moves in North Carolina, combining business registration records (2000–2024), voter registration files (2005–2019), and property transaction data from CoreLogic. Using a nearest-neighbor design, I track the arrival of entrepreneurs into neighborhoods and study whether incumbents subsequently start businesses. I find that residents who receive entrepreneurial neighbors are 4% to 10% more likely to start a business within five years than comparable residents who receive non-entrepreneurial neighbors. The effect persists under granular fixed-effects specifications that control for neighborhood composition, suggesting a causal link between entrepreneurial exposure and business formation. These findings highlight the importance of local peer effects in entrepreneurship and offer new insights into pathways for social mobility and localized economic development.
+This paper examines whether direct exposure to entrepreneurial neighbors increases business formation among incumbent residents. I exploit a natural experiment created by residential moves in North Carolina, combining business registration records (2000–2024), voter registration files (2005–2019), and property transaction data from CoreLogic. Using a nearest-neighbor design, I track the arrival of entrepreneurs into neighborhoods and study whether incumbents subsequently start businesses. I find that residents who receive entrepreneurial neighbors are 4% to 10% more likely to start a business within five years than comparable residents who receive non-entrepreneurial neighbors. The effect persists under granular fixed-effects specifications that control for neighborhood composition, suggesting a causal link between entrepreneurial exposure and business formation. These findings highlight the importance of local peer effects in entrepreneurship and offer new insights into pathways for social mobility and localized economic development.
+</div>
 
 ---
 ## Pre Doctoral Publications
@@ -55,7 +56,7 @@ layout: simple
     text-decoration-thickness: 2px;
     text-underline-offset: 4px;
     cursor: pointer;">
-    [Show/Hide Abstract]
+    [Abstract]
   </button>
   <span>·</span>
 
