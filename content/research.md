@@ -21,7 +21,7 @@ You can find more about my projects in my [CV](https://scifuentes14.github.io/Ne
 --- 
 ## Working in Progress
 
-- <b>Entrepreneurs and Nearest Neighbors.</b>
+- <b>When Entrepreneurs Move In: Evidence from North Carolina.</b>
 
 <div style="
   display: flex;
@@ -48,7 +48,7 @@ You can find more about my projects in my [CV](https://scifuentes14.github.io/Ne
 
  <!-- Abstract block -->
 <div id="abstract" style="display:none; margin-top:10px; border:0px solid #ccc; padding:10px;">
-  This paper examines whether direct exposure to entrepreneurial neighbors increases business formation among incumbent residents. I exploit a  natural experiment created by residential moves in North Carolina, combining business registration records (2000–2024), voter registration files (2005–2019), and property transaction data from CoreLogic. Using a nearest-neighbor design, I track the arrival of entrepreneurs into neighborhoods and study whether incumbents subsequently start businesses. I find that residents who receive entrepreneurial neighbors are 4% to 10% more likely to start a business within five years than comparable residents who receive non-entrepreneurial neighbors. The effect persists under granular fixed-effects specifications that control for neighborhood composition, suggesting a causal link between entrepreneurial exposure and business formation. These findings highlight the importance of local peer effects in entrepreneurship and offer new insights into pathways for social mobility and localized economic development.
+  This paper provides the first causal evidence that entrepreneurial activity diffuses through neighborhood ties. I exploit residential moves in North Carolina to study whether the arrival of an entrepreneurial neighbor increases business formation among incumbent residents. The analysis merges statewide business registrations, voter files, and property transaction data into a panel that links individuals to their neighbors and entrepreneurial outcomes over nearly two decades. Using a nearest-neighbor design with highly granular fixed effects, I find that exposure to entrepreneurial neighbors raises the probability of business entry by 4–9 percent within five years. Spillovers are stronger when incumbents and newcomers share gender, but not when they share race, suggesting that cross-racial exposure may help lower barriers to entrepreneurship for Black residents. Most effects occur in unincorporated, lower-cost businesses, while exposure to high-quality entrepreneurs is linked to a higher likelihood of starting incorporated firms. Finally, spillover intensity declines sharply with physical distance, with effects concentrated among immediate neighbors. These findings show that localized social interactions are an important channel through which entrepreneurship and economic opportunity spread.
 </div>
 
 ---
