@@ -21,7 +21,7 @@ You can find more about my projects in my [CV](https://scifuentes14.github.io/Ne
 --- 
 ## Working in Progress
 
-- <b>[When Entrepreneurs Move In: Evidence from North Carolina](https://scifuentes14.github.io/WhenEntrepreneursMoveIn_EvidenceNC.pdf).</b>
+- <b>[When Entrepreneurs Move In: Evidence from North Carolina](https://scifuentes14.github.io/WhenEntrepreneruMoveIn_Draft.pdf).</b>
 
 <div style="
   display: flex;
