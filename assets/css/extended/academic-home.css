@@ -1,0 +1,374 @@
+html {
+    font-family: "Source Sans 3", "Segoe UI", sans-serif;
+    color: var(--ucsd-navy);
+}
+
+body {
+    background:
+        radial-gradient(ellipse 80% 50% at 0% 0%, rgba(0, 98, 155, 0.06), transparent 55%),
+        radial-gradient(ellipse 60% 40% at 100% 0%, rgba(198, 146, 20, 0.05), transparent 50%),
+        #ffffff;
+    color: var(--ucsd-navy);
+}
+
+a {
+    color: var(--ucsd-blue);
+}
+
+a:hover {
+    color: var(--ucsd-navy);
+}
+
+h1, h2, h3, h4 {
+    font-family: "Source Serif 4", Georgia, serif;
+    color: var(--ucsd-navy);
+    font-weight: 700;
+}
+
+/* ---- Header / nav (Beatrice-like) ---- */
+.header {
+    border-bottom: 1px solid var(--border);
+    background: rgba(255, 255, 255, 0.92);
+    backdrop-filter: blur(8px);
+    position: sticky;
+    top: 0;
+    z-index: 40;
+}
+
+.nav {
+    max-width: var(--nav-width);
+    background: transparent;
+}
+
+.logo a {
+    font-family: "Source Serif 4", Georgia, serif;
+    font-size: 1.15rem;
+    font-weight: 700;
+    color: var(--ucsd-navy);
+}
+
+#menu a {
+    color: var(--ucsd-navy);
+    font-weight: 600;
+}
+
+#menu a:hover,
+#menu .active {
+    color: var(--ucsd-blue);
+}
+
+#menu .active {
+    border-bottom-color: var(--ucsd-gold);
+}
+
+/* ---- Academic home layout ---- */
+.main.academic-home {
+    max-width: var(--nav-width);
+    min-height: calc(100vh - var(--header-height) - var(--gap));
+    padding-top: 2rem;
+}
+
+.academic-layout {
+    display: grid;
+    grid-template-columns: 240px minmax(0, 1fr);
+    gap: 3rem;
+    align-items: start;
+}
+
+.academic-sidebar {
+    position: sticky;
+    top: calc(var(--header-height) + 1.25rem);
+}
+
+.author-avatar {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center top;
+    border: 3px solid #fff;
+    box-shadow: 0 0 0 1px rgba(24, 43, 73, 0.12);
+    display: block;
+    margin-bottom: 1rem;
+}
+
+.author-name {
+    font-family: "Source Serif 4", Georgia, serif;
+    font-size: 1.35rem;
+    font-weight: 700;
+    color: var(--ucsd-navy);
+    margin: 0 0 0.85rem;
+    line-height: 1.25;
+}
+
+.author-meta {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 0.92rem;
+    color: var(--ucsd-navy);
+}
+
+.author-meta li {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.55rem;
+    margin-bottom: 0.45rem;
+}
+
+.author-meta .meta-icon {
+    flex: 0 0 1rem;
+    margin-top: 0.15rem;
+    color: var(--ucsd-blue);
+}
+
+.author-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+}
+
+.author-links a {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    text-decoration: none;
+    color: var(--ucsd-navy);
+    font-size: 0.95rem;
+    font-weight: 600;
+}
+
+.author-links a:hover {
+    color: var(--ucsd-blue);
+}
+
+.author-links svg {
+    width: 16px;
+    height: 16px;
+    color: var(--ucsd-blue);
+}
+
+.academic-content {
+    font-size: var(--homesize);
+    line-height: var(--lineheight);
+    color: var(--ucsd-navy);
+}
+
+.academic-content p {
+    margin: 0 0 1.1rem;
+}
+
+.academic-content strong {
+    color: var(--ucsd-navy);
+    font-weight: 700;
+}
+
+.academic-content h2 {
+    font-size: 1.45rem;
+    margin: 1.75rem 0 0.85rem;
+    padding-bottom: 0.35rem;
+    border-bottom: 1px solid var(--border);
+}
+
+.cv-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.55rem;
+    margin: 0.35rem 0 0.5rem;
+    padding: 0.65rem 1.1rem;
+    border-radius: 4px;
+    background: var(--ucsd-navy);
+    color: #fff !important;
+    text-decoration: none !important;
+    font-weight: 600;
+    font-size: 0.95rem;
+    transition: background 0.15s ease, transform 0.15s ease;
+}
+
+.cv-btn:hover {
+    background: var(--ucsd-blue);
+    color: #fff !important;
+    transform: translateY(-1px);
+}
+
+.cv-btn svg {
+    width: 16px;
+    height: 16px;
+}
+
+.cv-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    margin: 0 0 1.75rem;
+}
+
+.cv-btn-outline {
+    background: #fff !important;
+    color: var(--ucsd-navy) !important;
+    border: 1px solid var(--ucsd-navy);
+}
+
+.cv-btn-outline:hover {
+    background: var(--ucsd-navy) !important;
+    color: #fff !important;
+}
+
+.contact-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.25rem 1.75rem;
+    align-items: center;
+    margin-top: 0.5rem;
+}
+
+.contact-row a {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.45rem;
+    text-decoration: none;
+    color: var(--ucsd-navy);
+    font-size: 0.98rem;
+    font-weight: 600;
+}
+
+.contact-row a:hover {
+    color: var(--ucsd-blue);
+}
+
+.contact-row svg {
+    width: 16px;
+    height: 16px;
+    color: var(--ucsd-blue);
+}
+
+.academic-rule {
+    border: 0;
+    border-top: 1px solid var(--border);
+    margin: 1.75rem 0;
+}
+
+/* Research page and other pages: keep UCSD text color */
+.post-content,
+.page-header h1 {
+    color: var(--ucsd-navy);
+}
+
+.post-content a {
+    color: var(--ucsd-blue);
+}
+
+/* ---- Research page papers ---- */
+.paper-item {
+    margin: 0 0 1.75rem;
+}
+
+.paper-title {
+    margin: 0 0 0.45rem;
+    font-size: 1.05rem;
+    line-height: 1.4;
+    color: var(--ucsd-navy);
+}
+
+.paper-title a {
+    color: var(--ucsd-navy);
+    text-decoration: none;
+}
+
+.paper-title a:hover {
+    color: var(--ucsd-blue);
+}
+
+.paper-coauthors {
+    display: inline;
+    font-weight: 400;
+    color: var(--secondary);
+    font-size: 0.95rem;
+}
+
+.paper-meta {
+    margin: 0 0 0.45rem;
+    color: var(--secondary);
+    font-size: 0.95rem;
+}
+
+.paper-blurb {
+    margin: 0.35rem 0 0.55rem;
+    color: var(--ucsd-navy);
+    font-size: 0.98rem;
+    line-height: 1.55;
+}
+
+.paper-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem 0.55rem;
+    align-items: center;
+    font-size: 0.92rem;
+}
+
+.paper-links a,
+.paper-toggle {
+    all: unset;
+    cursor: pointer;
+    color: var(--ucsd-navy);
+    text-decoration: underline;
+    text-decoration-color: var(--ucsd-blue);
+    text-decoration-thickness: 2px;
+    text-underline-offset: 3px;
+    font-size: 0.92rem;
+}
+
+.paper-links a:hover,
+.paper-toggle:hover {
+    color: var(--ucsd-blue);
+}
+
+.paper-abstract {
+    margin-top: 0.75rem;
+    padding: 0.85rem 1rem;
+    background: rgba(0, 98, 155, 0.04);
+    border-left: 3px solid var(--ucsd-blue);
+    color: var(--ucsd-navy);
+    font-size: 0.95rem;
+    line-height: 1.55;
+}
+
+.paper-bib pre {
+    margin: 0.75rem 0 0;
+    padding: 0.85rem 1rem;
+    background: var(--code-bg);
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    overflow-x: auto;
+    font-size: 0.85rem;
+    white-space: pre;
+}
+
+@media (max-width: 860px) {
+    .academic-layout {
+        grid-template-columns: 1fr;
+        gap: 1.75rem;
+    }
+
+    .academic-sidebar {
+        position: static;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .author-meta li,
+    .author-links a {
+        justify-content: center;
+    }
+
+    .author-avatar {
+        width: 150px;
+        height: 150px;
+    }
+}

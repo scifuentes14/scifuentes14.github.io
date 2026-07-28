@@ -1,0 +1,33 @@
+{{- define "main" }}
+<div class="academic-layout">
+  <aside class="academic-sidebar">
+    {{- $img := site.Params.profileMode.imageUrl | default "WebPage_Photo.png" }}
+    <img class="author-avatar" src="{{ $img | absURL }}" alt="{{ site.Params.author | default site.Title }}" width="180" height="180" />
+
+    <h1 class="author-name">{{ site.Params.author | default site.Title }}</h1>
+
+    <ul class="author-meta">
+      {{- with site.Params.sidebar.location }}
+      <li>
+        <span class="meta-icon" aria-hidden="true">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+        </span>
+        <span>{{ . }}</span>
+      </li>
+      {{- end }}
+      {{- with site.Params.sidebar.affiliation }}
+      <li>
+        <span class="meta-icon" aria-hidden="true">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21h18"/><path d="M5 21V7l7-4 7 4v14"/><path d="M9 21v-6h6v6"/></svg>
+        </span>
+        <span>{{ . }}</span>
+      </li>
+      {{- end }}
+    </ul>
+  </aside>
+
+  <article class="academic-content">
+    {{- .Content }}
+  </article>
+</div>
+{{- end }}

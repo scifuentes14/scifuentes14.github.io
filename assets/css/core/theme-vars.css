@@ -1,49 +1,59 @@
 :root {
     --gap: 24px;
     --content-gap: 20px;
-    --nav-width: 1024px;
-    --main-width: 720px;
-    --header-height: 44px;
+    --nav-width: 1100px;
+    --main-width: 980px;
+    --header-height: 52px;
     --footer-height: 70px;
-    --radius: 8px;
-    --theme: rgb(255, 255, 255);
-    --entry: rgb(255, 255, 255);
-    --primary: rgb(30, 30, 30);
-    --secondary: rgb(108, 108, 108);
-    --tertiary: rgb(214, 214, 214);
-    --gray: rgb(165, 165, 165);
-    --content: rgb(30, 30, 30);
+    --radius: 6px;
+
+    /* UC San Diego brand colors */
+    --ucsd-blue: #00629B;
+    --ucsd-navy: #182B49;
+    --ucsd-gold: #C69214;
+    --ucsd-yellow: #FFCD00;
+    --ucsd-sand: #F5F0E6;
+
+    --theme: #ffffff;
+    --entry: #ffffff;
+    --primary: var(--ucsd-navy);
+    --secondary: #4a5c73;
+    --tertiary: #d6dde6;
+    --gray: #747678;
+    --content: var(--ucsd-navy);
     --code-block-bg: rgb(28, 29, 33);
-    --code-bg: rgb(245, 245, 245);
-    --border: rgb(238, 238, 238);
-    --darkcolor: #6a7ba2;
-    --lightcolor: #cbd1de;
-    --semibold: 500;
-    --homesize: 16px;
-    --textsize: 18px;
-    --h1size: 25px;
+    --code-bg: #f7f8fa;
+    --border: #e4e8ee;
+    --darkcolor: var(--ucsd-blue);
+    --lightcolor: #c5d8e8;
+    --semibold: 600;
+    --homesize: 17px;
+    --textsize: 17px;
+    --h1size: 28px;
     --entrysize: 15px;
-    --headersize: 16px;
+    --headersize: 15px;
     --footersize: 13px;
-    --lineheight: 1.45;
+    --lineheight: 1.65;
     --lineclamp: 8;
     --marginleft: 26px;
 }
 
 .dark {
-    --theme: rgb(29, 30, 32);
-    --entry: rgb(46, 46, 51);
-    --primary: rgb(218, 218, 219);
-    --secondary: rgb(155, 156, 157);
-    --tertiary: rgb(65, 66, 68);
-    --content: rgb(196, 196, 197);
-    --code-block-bg: rgb(46, 46, 51);
-    --code-bg: rgb(55, 56, 62);
-    --border: rgb(51, 51, 51);
+    --theme: #121820;
+    --entry: #1a2330;
+    --primary: #e8eef5;
+    --secondary: #a8b4c4;
+    --tertiary: #2a3648;
+    --content: #d5dde8;
+    --code-block-bg: #1a2330;
+    --code-bg: #1e2836;
+    --border: #2a3648;
+    --ucsd-blue: #4da3d4;
+    --ucsd-navy: #e8eef5;
 }
 
 .list {
-    background: var(--code-bg);
+    background: var(--theme);
 }
 
 .dark.list {
