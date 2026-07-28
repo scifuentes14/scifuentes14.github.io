@@ -17,7 +17,7 @@ layout: simple
     }
   }
 </script>
-You can find more about my projects in my [CV](https://scifuentes14.github.io/NewCV_SC_2026-05.pdf)
+You can find more about my projects in my [CV](https://scifuentes14.github.io/NewCV_SC_2026-07.pdf)
 --- 
 ## Working in Progress
 
@@ -42,6 +42,17 @@ You can find more about my projects in my [CV](https://scifuentes14.github.io/Ne
     cursor: pointer;">
     [Abstract]
   </button>
+  <span>·</span>
+  <a href="https://scifuentes14.github.io/WhenEntrepreneruMoveIn_Slides.pdf" target="_blank" style="
+    all: unset;
+    color: black;
+    text-decoration: underline;
+    text-decoration-color: #6a7ba2;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 4px;
+    cursor: pointer;">
+    [Slides]
+  </a>
   
 </div>
 
