@@ -206,6 +206,17 @@ h1, h2, h3, h4 {
     margin: 0 0 1.75rem;
 }
 
+.home-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    margin: 0.35rem 0 0.5rem;
+}
+
+.home-actions .cv-btn {
+    margin: 0;
+}
+
 .cv-btn-outline {
     background: #fff !important;
     color: var(--ucsd-navy) !important;

@@ -8,10 +8,16 @@ My research interests focus on **entrepreneurship**, **housing markets**, and **
 
 I obtained an M.Sc. in Industrial Engineering (*summa cum laude*, with concentration in Finance) and an Industrial Engineering degree with a major in Mining Engineering from the **Pontificia Universidad Católica de Chile**.
 
-<a href="/cv/" class="cv-btn">
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
-  <span>View CV</span>
-</a>
+<div class="home-actions">
+  <a href="/research/" class="cv-btn">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+    <span>View Research</span>
+  </a>
+  <a href="/cv/" class="cv-btn cv-btn-outline">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+    <span>View CV</span>
+  </a>
+</div>
 
 <hr class="academic-rule" />
 
